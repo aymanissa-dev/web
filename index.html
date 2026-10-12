@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ayman Issa · Software Engineer &amp; Developer Advocate</title>
+<meta name="description" content="Ayman Issa is a software engineer and developer advocate based in Nairobi, Kenya. Building things for the web, and helping others build theirs.">
+<meta property="og:title" content="Ayman Issa">
+<meta property="og:description" content="Building things for the web, and helping others build theirs.">
+<meta property="og:image" content="assets/ayman.webp">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-top label">
+    <span class="loader-name"><span class="split-chars">Ayman Issa</span></span>
+    <span class="loader-role">Software Engineer &amp; Developer Advocate</span>
+  </div>
+  <div class="count"><span id="count">0</span></div>
+  <div class="bar"><i id="bar"></i></div>
+</div>
+
+<!-- ============ PAGE TRANSITION ============ -->
+<div class="curtain" id="curtain" aria-hidden="true"><span class="curtain-label" id="curtain-label">Who</span></div>
+
+<!-- ============ TOP BAR ============ -->
+<header class="topbar" id="topbar">
+  <a class="wordmark magnetic" href="#home" aria-label="aymanissa.dev, home">aymanissa.dev</a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="#who" data-route="who" data-scramble>Who</a></li>
+      <li><a href="#builds" data-route="builds" data-scramble>Builds</a></li>
+      <li><a href="#notes" data-route="notes" data-scramble>Notes</a></li>
+      <li><a href="#hello" data-route="hello" data-scramble>Hello</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="sheet">
+      <span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- ============ HOME ============ -->
+<main class="home" id="view-home" data-view="home">
+  <div class="home-glow" aria-hidden="true"></div>
+  <section class="stage">
+    <h1 class="name" id="hero-name" aria-label="Ayman Issa"><span class="split-chars">Ayman Issa</span></h1>
+    <img class="portrait" id="portrait" src="assets/ayman.webp" alt="Portrait of Ayman Issa" width="1000" height="1000">
+  </section>
+
+  <footer class="home-foot">
+    <div class="intro">
+      <span class="label" data-anim>Software Engineer &amp; Developer Advocate</span>
+      <p class="hook" data-anim>Building things for the web, and helping others build theirs.</p>
+    </div>
+    <div class="bottom-row">
+      <div class="socials" aria-label="Social links">
+        <a data-anim data-link="github" href="#" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+        <a data-anim href="https://www.threads.com/@aymanissa.dev" target="_blank" rel="noopener" aria-label="Threads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M16.5 11.2c-.3-2.4-1.9-3.7-4.3-3.7-2.6 0-4.2 1.8-4.2 4.5s1.7 4.5 4.3 4.5c2 0 3.5-1.2 3.5-3s-1.6-2.7-3.6-2.7c-1.8 0-3 .8-3 2.1 0 1.1 1 1.9 2.4 1.9"/><path d="M19.5 7.5C18.1 4.6 15.4 3 12 3 6.8 3 4 6.6 4 12s2.8 9 8 9c3.6 0 6.2-1.7 7.3-4.6"/></svg></a>
+        <a data-anim href="https://x.com/aymanissa_dev" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.3 22H2.2l7.7-8.8L1.8 2h6.8l4.7 6.2L18.9 2Zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20Z"/></svg></a>
+        <a data-anim href="https://linkedin.com/in/aymanissa-dev" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4V9Z"/></svg></a>
+      </div>
+      <a class="cta magnetic" data-anim href="#builds">See what I’ve built <b>→</b></a>
+    </div>
+  </footer>
+</main>
+
+<!-- ============ WHO ============ -->
+<main class="page" id="view-who" data-view="who" hidden>
+  <section class="who-top">
+    <div class="who-text">
+      <span class="label kicker" data-anim>Who</span>
+      <h1 class="who-title split-words">I’m Ayman. I build for the web from Nairobi, and I’m early in the journey.</h1>
+      <div class="prose">
+        <p data-anim>I’m <strong>Ayman Issa</strong>, a Software Engineer and Developer Advocate based in Nairobi, Kenya, working remotely with people and teams globally.</p>
+        <p data-anim>I build software for the web, experiment with AI, contribute to developer communities, and spend a probably unreasonable amount of time building things nobody asked for.</p>
+        <p data-anim>Outside the code, I speak, organize, and teach, helping other developers build cool things. Usually on purpose.</p>
+        <p data-anim>I’m early in the journey, and that’s part of the story.</p>
+      </div>
+    </div>
+
+    <aside class="who-side">
+      <figure class="photo-card tilt" data-anim><img src="assets/ayman.webp" alt="Ayman Issa" width="1000" height="1000" loading="lazy"></figure>
+      <ul class="links-list">
+        <li data-anim><a data-link="github" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>Follow on GitHub</a></li>
+        <li data-anim><a href="https://www.threads.com/@aymanissa.dev" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M16.5 11.2c-.3-2.4-1.9-3.7-4.3-3.7-2.6 0-4.2 1.8-4.2 4.5s1.7 4.5 4.3 4.5c2 0 3.5-1.2 3.5-3s-1.6-2.7-3.6-2.7c-1.8 0-3 .8-3 2.1 0 1.1 1 1.9 2.4 1.9"/><path d="M19.5 7.5C18.1 4.6 15.4 3 12 3 6.8 3 4 6.6 4 12s2.8 9 8 9c3.6 0 6.2-1.7 7.3-4.6"/></svg>Follow on Threads</a></li>
+        <li data-anim><a href="https://x.com/aymanissa_dev" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.3 22H2.2l7.7-8.8L1.8 2h6.8l4.7 6.2L18.9 2Zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20Z"/></svg>Follow on X</a></li>
+        <li data-anim><a href="https://linkedin.com/in/aymanissa-dev" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4V9Z"/></svg>Connect on LinkedIn</a></li>
+      </ul>
+      <div class="mail-row" data-anim>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+        <span class="mono" id="v-email-who">hello@aymanissa.dev</span>
+        <button class="copy" type="button" data-copy="v-email-who">Copy</button>
+      </div>
+    </aside>
+  </section>
+
+  <section class="row" data-reveal>
+    <span class="label">Experience</span>
+    <ul class="list">
+      <li class="draft"><span class="when">20XX – Now</span><span class="what"><b>Role · Company</b><span>One line on what you do there and what you’ve shipped.</span></span><span class="kind">placeholder</span></li>
+      <li class="draft"><span class="when">20XX – 20XX</span><span class="what"><b>Role · Company</b><span>Freelance, internships, and contract work belong here too.</span></span><span class="kind">placeholder</span></li>
+    </ul>
+  </section>
+
+  <section class="row" data-reveal>
+    <span class="label">Education</span>
+    <ul class="list">
+      <li class="draft"><span class="when">20XX – Now</span><span class="what"><b>BSc Computer Science · University</b><span>Add your university, and anything you’re focusing on.</span></span><span class="kind">placeholder</span></li>
+    </ul>
+  </section>
+
+  <section class="row" data-reveal>
+    <span class="label">Community</span>
+    <ul class="list">
+      <li class="draft"><span class="when">20XX</span><span class="what"><b>Talk title · Event</b><span>Talks you’ve given, workshops you’ve run, communities you organize.</span></span><span class="kind">placeholder</span></li>
+    </ul>
+  </section>
+
+  <section class="row belief" data-reveal>
+    <span class="label">What I believe</span>
+    <blockquote class="mission split-words">Leave it better. Code, communities, and people.</blockquote>
+  </section>
+
+  <section class="row" data-reveal>
+    <span class="label">Next</span>
+    <div class="next">
+      <p>Want to see the work?</p>
+      <div class="links">
+        <a class="cta magnetic" href="#builds">Builds <b>→</b></a>
+        <a class="cta magnetic" href="#hello">Say hello <b>→</b></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot"><span>Building things for the web, and helping others build theirs.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<!-- ============ BUILDS ============ -->
+<main class="page" id="view-builds" data-view="builds" hidden>
+  <div class="page-head">
+    <span class="label kicker" data-anim>Builds</span>
+    <h1 class="statement split-words">Products, tools, and things nobody asked for.</h1>
+  </div>
+  <div class="filters" role="group" aria-label="Filter builds" data-anim>
+    <button type="button" class="chip" data-filter="all" aria-pressed="true">All <span class="n" data-count="all"></span></button>
+    <button type="button" class="chip" data-filter="shipped" aria-pressed="false">Shipped <span class="n" data-count="shipped"></span></button>
+    <button type="button" class="chip" data-filter="progress" aria-pressed="false">In progress <span class="n" data-count="progress"></span></button>
+    <button type="button" class="chip" data-filter="experiment" aria-pressed="false">Experiments <span class="n" data-count="experiment"></span></button>
+  </div>
+  <ul class="builds" id="builds-list"></ul>
+  <p class="empty" id="builds-empty" hidden></p>
+  <footer class="site-foot"><span>Building things for the web, and helping others build theirs.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<main class="page" id="view-build" data-view="build" hidden>
+  <a class="back" href="#builds" data-anim>← All builds</a>
+  <div id="build-detail"></div>
+  <footer class="site-foot"><span>Building things for the web, and helping others build theirs.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<!-- ============ NOTES ============ -->
+<main class="page" id="view-notes" data-view="notes" hidden>
+  <div class="page-head">
+    <span class="label kicker" data-anim>Notes</span>
+    <h1 class="statement split-words">Things I’ve learned, written down so you don’t learn them the hard way.</h1>
+  </div>
+  <div class="filters" id="note-tags" role="group" aria-label="Filter notes by tag" hidden></div>
+  <ul class="notes" id="notes-list" aria-live="polite">
+    <li class="sk"><span></span><span></span></li><li class="sk"><span></span><span></span></li><li class="sk"><span></span><span></span></li>
+  </ul>
+  <div class="note-state" id="notes-state" hidden></div>
+  <p class="synced mono" id="notes-synced"></p>
+  <footer class="site-foot"><span>Building things for the web, and helping others build theirs.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<main class="page" id="view-note" data-view="note" hidden>
+  <a class="back" href="#notes" data-anim>← All notes</a>
+  <article id="note-detail" class="note-article"></article>
+  <footer class="site-foot"><span>Building things for the web, and helping others build theirs.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<!-- ============ HELLO ============ -->
+<main class="page" id="view-hello" data-view="hello" hidden>
+  <div class="page-head">
+    <span class="label kicker" data-anim>Hello</span>
+    <h1 class="statement split-words">Building something meaningful? Let’s talk.</h1>
+  </div>
+
+  <div class="marquee" aria-hidden="true" data-anim>
+    <div class="marquee-track">
+      <span>Let’s build something</span><i>✳</i><span>Say hello</span><i>✳</i><span>Book a call</span><i>✳</i><span>Let’s build something</span><i>✳</i><span>Say hello</span><i>✳</i><span>Book a call</span><i>✳</i>
+    </div>
+  </div>
+
+  <a class="book tilt" data-anim data-link="booking" href="https://calendar.app.google/Q9jeqinx4CshxG396" target="_blank" rel="noopener">
+    <div class="book-text">
+      <span class="eyebrow">Fastest way to reach me</span>
+      <h2>Book a call</h2>
+      <p>Pick a time that works for you on my calendar. Times show in your own time zone.</p>
+    </div>
+    <span class="book-go magnetic">Open booking page ↗</span>
+  </a>
+
+  <div class="ways">
+    <article class="way" data-anim>
+      <span class="eyebrow">Email</span>
+      <span class="way-val mono" id="v-email">hello@aymanissa.dev</span>
+      <div class="way-acts"><button type="button" class="copy" data-copy="v-email">Copy</button><a href="mailto:hello@aymanissa.dev">Write an email ↗</a></div>
+    </article>
+    <article class="way" data-anim>
+      <span class="eyebrow">WhatsApp</span>
+      <span class="way-val mono" id="v-wa">+254 7XX XXX XXX</span>
+      <div class="way-acts"><button type="button" class="copy" data-copy="v-wa">Copy</button><a data-link="whatsapp" href="#" target="_blank" rel="noopener">Open chat ↗</a></div>
+    </article>
+    <article class="way" data-anim>
+      <span class="eyebrow">Phone</span>
+      <span class="way-val mono" id="v-phone">+254 7XX XXX XXX</span>
+      <div class="way-acts"><button type="button" class="copy" data-copy="v-phone">Copy</button><a data-link="phone" href="#">Call ↗</a></div>
+    </article>
+  </div>
+
+  <section class="row" data-reveal>
+    <span class="label">Reach out if you’re</span>
+    <ul class="who-list">
+      <li>A developer who wants to build, pair, or swap notes</li>
+      <li>An educator or community organizer looking for a speaker</li>
+      <li>An open-source maintainer or contributor</li>
+      <li>A founder building something meaningful</li>
+    </ul>
+  </section>
+
+  <section class="row" data-reveal>
+    <span class="label">Elsewhere</span>
+    <div class="elsewhere">
+      <a data-link="github" href="#" target="_blank" rel="noopener"><span>GitHub</span><span class="mono" data-text="github-handle">github ↗</span></a>
+      <a href="https://linkedin.com/in/aymanissa-dev" target="_blank" rel="noopener"><span>LinkedIn</span><span class="mono">aymanissa-dev ↗</span></a>
+      <a href="https://x.com/aymanissa_dev" target="_blank" rel="noopener"><span>X</span><span class="mono">@aymanissa_dev ↗</span></a>
+      <a href="https://www.threads.com/@aymanissa.dev" target="_blank" rel="noopener"><span>Threads</span><span class="mono">@aymanissa.dev ↗</span></a>
+    </div>
+  </section>
+
+  <footer class="site-foot"><span>Based in Nairobi, Kenya. Working remotely with people and teams globally.</span><span class="mono">© <span class="year">2026</span> Ayman Issa</span></footer>
+</main>
+
+<!-- ============ 404 ============ -->
+<main class="page lost" id="view-lost" data-view="lost" hidden>
+  <span class="label kicker" data-anim>404</span>
+  <h1 class="statement split-words">This page wandered off.</h1>
+  <p data-anim><a class="cta magnetic" href="#home">Back home <b>→</b></a></p>
+</main>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="sheet" id="sheet" hidden>
+  <button class="sheet-close" id="sheet-close" type="button">Close</button>
+  <a href="#who">Who</a><a href="#builds">Builds</a><a href="#notes">Notes</a><a href="#hello">Hello</a>
+  <p class="sheet-foot mono">hello@aymanissa.dev</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
